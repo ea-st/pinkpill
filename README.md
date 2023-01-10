@@ -1,2 +1,1 @@
-# pinkpill
-Sourcecode to pinkpill.org
+# pinkpill.org
