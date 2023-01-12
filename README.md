@@ -1,7 +1,7 @@
 [pinkpill.org](https:/pinkpill.org)
 =================
 
-The sourcecode to my website, the website is mainly... well... I don't know yet.
+The source code to my website, the website is mainly... well... I don't know yet.
 
 ---
 
