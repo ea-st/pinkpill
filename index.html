@@ -2,40 +2,69 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="data:image/png;base64,">
-<title>pink pill</title>
+<link rel="icon" href="site/icons/pill.svg" href="data:image/png;base64,">
+<title>pinkpill.org</title>
 <style>
-	@media (prefers-color-scheme: dark){
-		body {color:#fff;background:#000}
-		a:link {color:#cdf}
-		a:hover, a:visited:hover {color:#def}
-		a:visited {color:#dcf}
-	}
-	body{
-		margin:1em auto;
-		max-width:40em;
-		padding:0 .62em;
-		font:1.2em/1.62 sans-serif
-	}
-	h1,h2,h3 {
-		line-height:1.2
-	}
-	@media print{
-		body{
-			max-width:none
-		}
-	}
+ a:link {  /* unvisited link */
+  color: rgb(250, 153, 202);
+}
+a:visited { /* visited link */
+  color: rgb(255, 98, 177);
+}
+a:hover { /* mouse over link */
+  color: rgb(250, 153, 202);
+}
+a:active { /* selected link */
+  color: rgb(250, 153, 202);
+} 
+code.border {
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  padding: 5px;
+}
 </style>
-<article>
-	<header>
-		<h1>Website is a <em>work in progress</em></h1>
-	</header>
-	<h2> blah blah placeholder</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-	<ul>
-		<li> One
-		<li> Two
-	</ul>
-	<p>Purus in massa tempor nec feugiat nisl pretium. Diam sollicitudin tempor id eu nisl. Ut ornare lectus.
-	<h3 id="sample text</h3>
-	<p><a title="website" href="https://example.com/">website</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+<html>
+
+  <head>
+
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" href="site/css/style.css" />
+  
+  </head>
+
+  <body>
+
+      <h1>pinkpill.org; <em>east's internet corner</em></h1>
+
+      <a name="wip"></a><h2 class="helvetica f2 lh-solid"><small class="f4 db">WIP <pg class="mt0 fw3 dib f7"><a href="#wip">#</a></pg></small></h2>
+       
+       <p>WEB SITE WORK IN PROGRESS!!!!</p>
+          
+        
+      <a name="pages"></a><h2 class="helvetica f2 lh-solid"><small class="f4 db">Pages <pg class="mt0 fw3 dib f7"><a href="#pages">#</a></pg></small></h2>
+
+       <ul>
+         <li><a title="My writing space" href="site/pages/nav.html">Articles & Blog</a> ; Articles and my journal of sorts.</li>
+         <li><a title="Links to my accounts" href="site/pages/links.html">Links</a> ; Links to my various accounts.</li>
+         <li><a title="Every link on pinkpill.org" href="site/pages/library.html">Library</a> ; contains links to all pages.</li>
+       </ul>	
+
+      <a name="contact"></a><h2 class="helvetica f2 lh-solid"><small class="f4 db">Contact <pg class="mt0 fw3 dib f7"><a href="#contact">#</a></pg></small></h2>
+        
+       <img alt="" style="max-height:0.7em;max-width:1=0.7em;display:inline" src="site/icons/letter.svg"> <code>Email : </code><em><a href="mailto:east@pinkpill.org" rel="nofollow">east@pinkpill.org</a></em>
+
+
+      <hr></hr>
+
+      <a name="donations"></a><h2 class="helvetica f2 lh-solid"><small class="f4 db">Donations <pg class="mt0 fw3 dib f7"><a href="#donations">#</a></pg></small></h2>
+  
+        <img alt="" style="max-height:0.7em;max-width:1=0.7em;display:inline" src="site/icons/monero.svg"> <code>Monero (XMR)</code></br>
+        <code class="border" style="font-size:small;overflow-wrap:break-word;color: rgb(7, 63, 0);">88dG9hX23AChb3vUdmbNk9V846fFuqmbCcvtT2iZQ9BfL7LwLTo9RT6HbCF1es4sJ1aDEzvZg9nhm666EBKwGmVjP4qTYoj</code><br>
+
+        <img alt="" style="max-height:0.7em;max-width:1=0.7em;display:inline" src="site/icons/bitcoin.svg"> <code>Bitcoin (BTC)</code></br>
+        <code class="border" style="font-size:small;overflow-wrap:break-word;color: rgb(7, 63, 0);">bc1qmzy3yn59ay2dkx5wwq0tt6ka9zxndsacyawzls</code><br>
+  
+  </body>
+  
+</html>
