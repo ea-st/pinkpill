@@ -6,5 +6,16 @@ margin: 40px auto;
     font-size: 18px;
     color: #444;
     padding: 0 10px;
-
 }
+a:link {  /* unvisited link */
+    color: rgb(250, 153, 202);
+  }
+  a:visited { /* visited link */
+    color: rgb(255, 98, 177);
+  }
+  a:hover { /* mouse over link */
+  color: rgb(250, 153, 202);
+  }
+  a:active { /* selected link */
+    color: rgb(250, 153, 202);
+  } 
